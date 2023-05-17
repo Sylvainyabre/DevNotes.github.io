@@ -1,3 +1,50 @@
-theme: jekyll-theme-minimal
-title: Sylvain's homepage
-description: Bookmark this to keep an eye on my project updates!
+# Site settings
+title: DevNotes by Sylvain
+description: Welcome to my personal website!
+baseurl: ""
+url: "https:/sylvainyabre.github.io"
+
+# Build settings
+theme: jekyll-theme-beautiful
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Navigation menu
+nav_menu:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Blog
+    url: /blog
+
+# Social media links
+social:
+  - title: Twitter
+    icon: fab fa-twitter
+    url: https://twitter.com/example
+  - title: GitHub
+    icon: fab fa-github
+    url: https://github.com/example
+
+# Default pagination settings
+paginate: 10
+paginate_path: "/page/:num/"
+
+# Exclude files and directories
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - _site
+
+# GitHub Pages settings
+github:
+  is_project_page: false
+
+# Custom configuration specific to your needs
+# ...
+
+
